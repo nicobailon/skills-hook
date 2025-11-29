@@ -1,0 +1,8 @@
+# Test results
+tests/test-results-*.log
+
+# macOS
+.DS_Store
+
+# Generated hook (users generate their own)
+# hooks/skill-forced-eval.sh

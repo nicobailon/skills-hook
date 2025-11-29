@@ -1,0 +1,12 @@
+{
+  "description": "Sample test prompts for skill activation testing. Customize for your skills.",
+  "tests": [
+    {"id": "HW-001", "category": "hello-world", "prompt": "say hello to the user", "expected_skills": ["hello-world"], "expected_count": 1},
+    {"id": "HW-002", "category": "hello-world", "prompt": "greet me warmly", "expected_skills": ["hello-world"], "expected_count": 1},
+    {"id": "CR-001", "category": "code-review", "prompt": "review this pull request for issues", "expected_skills": ["code-reviewer"], "expected_count": 1},
+    {"id": "CR-002", "category": "code-review", "prompt": "check this code for bugs and improvements", "expected_skills": ["code-reviewer"], "expected_count": 1},
+    {"id": "CR-003", "category": "code-review", "prompt": "do a code review of the authentication module", "expected_skills": ["code-reviewer"], "expected_count": 1},
+    {"id": "NEG-001", "category": "negative", "prompt": "what is the capital of France", "expected_skills": [], "expected_count": 0},
+    {"id": "NEG-002", "category": "negative", "prompt": "explain how HTTP works", "expected_skills": [], "expected_count": 0}
+  ]
+}
